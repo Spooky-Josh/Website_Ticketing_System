@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "@webpack-cli/serve": "^2.0.1",
+    "babel-loader": "^9.1.2",
+    "webpack": "^5.76.2",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.1"
+  },
+  "dependencies": {
+    "jsqr": "^1.4.0"
+  }
+}

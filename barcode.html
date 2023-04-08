@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Barcode Scanner</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="barcode-styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<header id="header">
+	<button id="scan-button">Scan</button>
+  </header>
+  
+  <div id="video-container">
+	<video id="video"></video>
+	<canvas id="canvas"></canvas>
+  </div>
+  
+  
+  <div id="overlay">
+	<h1>Scan QR Code</h1>
+	<p>Point your camera at the QR code to scan</p>
+	<div id="response"></div>
+  </div>
+  
+	<script src="dist/bundle.js"></script>
+</body>
+</html>
